@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game Database</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="bg-info">
+    <h1 class="text-center my-5">VGDb</h1>
+    <div class="container" id="gameContainer"></div>
+
+    <br>
+    <div class="container">
+        <div class="row">
+            <input type="text" placeholder="Game title" id="gameTitleInput" class="col-5">
+            <input type="text" placeholder="Genre" id="gameGenreInput" class="col-5">
+            <button onclick="addEntry()" class="btn btn-success col-2">Add Entry</button>
+        </div>
+    </div>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

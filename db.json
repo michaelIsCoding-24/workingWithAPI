@@ -1,0 +1,33 @@
+{
+  "genres": [
+    {
+      "id": 1,
+      "name": "Racing"
+    },
+    {
+      "id": 2,
+      "name": "Platformer"
+    },
+    {
+      "id": 3,
+      "name": "RPG"
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "Stuntman",
+      "genreName": "Racing"
+    },
+    {
+      "id": 2,
+      "title": "Super Mario Bros.",
+      "genreName": "Platformer"
+    },
+    {
+      "title": "Five Night's at Freddy's",
+      "genreName": "Horror",
+      "id": 3
+    }
+  ]
+}
